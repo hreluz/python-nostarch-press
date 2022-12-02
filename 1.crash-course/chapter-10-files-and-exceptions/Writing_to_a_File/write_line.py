@@ -1,0 +1,5 @@
+filename = 'programming.txt'
+
+#by default the mode is to read
+with open(filename, 'w') as file_object:
+    file_object.write("I love programming.")
